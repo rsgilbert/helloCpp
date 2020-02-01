@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 // Write a program that prints odd numbers between 0 and 100
 int main() {
     for (int num = 0; num < 100; num++) {
