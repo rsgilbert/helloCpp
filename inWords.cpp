@@ -21,6 +21,7 @@ vector<string> overTwenties = {"", "", "twenty", "thirty", "forty", "fifty", "si
 
 // middleware functions
 string tens(string number) {
+    number = to_string(stoi(number));
     int numberAsInt = stoi(number);
 
     if (numberAsInt > 20) {
@@ -34,6 +35,7 @@ string tens(string number) {
 }
 
 string hundreds(string number) {
+    number = to_string(stoi(number));
     string::size_type digits = number.size();
     string hundredString = "hundred";
     if (digits > 2) {
@@ -47,6 +49,7 @@ string hundreds(string number) {
 
 
 string thousands(string number) {
+    number = to_string(stoi(number));
     string::size_type digits = number.size();
     string thousandString = "thousand";
 
@@ -59,17 +62,31 @@ string thousands(string number) {
     return hundreds(number);
 }
 
+string millions(string number) {
+    string::size_type digits = number.size();
+    string millionString = "million";
+
+    if (digits > 6) {
+        string::size_type numberOfMillions = digits - 6;
+        string millionsDigitsLeft = number.substr(0, numberOfMillions);
+        string millionsDigitRight = number.substr(numberOfMillions);
+        return thousands(millionsDigitsLeft) + spacer() + millionString + spacer() + thousands(millionsDigitRight);
+    }
+    return thousands(number);
+}
+
 
 // convert a number below 10,000 to words;
 int main() {
-    string number = "89267";
+    string number = "1000000";
 
 //    if (stoi(number) > 100000) {
 //        cout << "OUT OF RANGE";
 //        return 1;
 //    }
 
-    cout << number << " is " << thousands(number);
+    cin >> number;
+    cout << number << " is " << millions(number);
 
 }
 
