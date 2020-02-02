@@ -1,4 +1,3 @@
 C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug/CMakeFiles/helloC__.dir
-C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug/CMakeFiles/inWords.dir
 C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

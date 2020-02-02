@@ -124,46 +124,6 @@ helloC__\fast:
 	$(MAKE) -f CMakeFiles\helloC__.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\helloC__.dir\build
 .PHONY : helloC__\fast
 
-#=============================================================================
-# Target rules for targets named inWords
-
-# Build rule for target.
-inWords: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) inWords
-.PHONY : inWords
-
-# fast build rule for target.
-inWords\fast:
-	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\build
-.PHONY : inWords\fast
-
-inWords.obj: inWords.cpp.obj
-
-.PHONY : inWords.obj
-
-# target to build an object file
-inWords.cpp.obj:
-	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\inWords.cpp.obj
-.PHONY : inWords.cpp.obj
-
-inWords.i: inWords.cpp.i
-
-.PHONY : inWords.i
-
-# target to preprocess a source file
-inWords.cpp.i:
-	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\inWords.cpp.i
-.PHONY : inWords.cpp.i
-
-inWords.s: inWords.cpp.s
-
-.PHONY : inWords.s
-
-# target to generate assembly for a file
-inWords.cpp.s:
-	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\inWords.cpp.s
-.PHONY : inWords.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -198,12 +158,8 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... helloC__
-	@echo ... inWords
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... inWords.obj
-	@echo ... inWords.i
-	@echo ... inWords.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

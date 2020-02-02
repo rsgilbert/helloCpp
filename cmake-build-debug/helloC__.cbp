@@ -61,50 +61,6 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="inWords">
-				<Option output="C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug/inWords.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 inWords"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="inWords/fast">
-				<Option output="C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug/inWords.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 inWords/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\GilbertS\CLionProjects\helloC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/GilbertS/CLionProjects/helloC++/cmake-build-debug"/>
 				<Option type="4"/>
@@ -126,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/GilbertS/CLionProjects/helloC++/inWords.cpp">
-			<Option target="inWords"/>
-		</Unit>
 		<Unit filename="C:/Users/GilbertS/CLionProjects/helloC++/main.cpp">
 			<Option target="helloC__"/>
 		</Unit>
